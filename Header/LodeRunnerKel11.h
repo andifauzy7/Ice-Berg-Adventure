@@ -43,6 +43,11 @@ typedef struct tdtmap {
     address next;
 } dtmap;
 
+typedef struct{
+    int score;
+    char name[20];
+}high_score;
+
 //game arr;
 #include "SOFIHIN_181511056.h"
 #include "REZKY_181511052.h"
@@ -164,4 +169,5 @@ void movement(char gerak, game arr[BRS][KLM], int* BRS_, int* KLM_,int *score, Q
 void movementpemain(char gerak, game arr[BRS][KLM], int baris_, int kolom_,int page,int a,int b,int c);
 
 
+void simpanfile(char nama[20], int score);
 #endif // LodeRunnerKel11_H

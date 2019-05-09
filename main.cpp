@@ -94,7 +94,6 @@ void permain(int lvl,int *score, int *nyawa, game arr[BRS][KLM])
         tampilpintu(arr,*score);
         if (naiklvl(arr,BRS_,KLM_,*score)==true){
             keep = false;
-            *score=*score+1;
 
         }
         if (jalan(arr,BRS_,KLM_,baris_bef,kolom_bef)){

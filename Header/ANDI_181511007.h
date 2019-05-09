@@ -141,4 +141,24 @@ void atas(game arr[BRS][KLM], int BRS_, int KLM_,int a)
             }
     }
 }
+
+void simpanfile(char nama[20], int score){
+    high_score dt;
+    FILE *f_highscore;
+    if((f_highscore=fopen("HIGHSCORE.txt","at"))==NULL){
+        exit(1);
+    }
+    //fprintf(f_highscore,"%d",score-1);
+    fwrite(&dt, sizeof(dt), 1, f_highscore);
+    fclose(f_highscore);
+
+    if((f_highscore=fopen("HIGHSCORE.txt","rt"))==NULL){
+        exit(1);
+    }
+    fread(&dt, sizeof(dt), 1, f_highscore);
+    printf("%d",dt.score);
+    fclose(f_highscore);
+
+
+}
 #endif // 181511007_H
