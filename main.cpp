@@ -1,119 +1,133 @@
-// File      : main.cpp
-// Author    : Anggota Kelompok 11.
-// Deskripsi : Program Utama dari Permainan Ice Berg Adventure.
-// D3 JTK'18 : PPL 2
+#include "Header/LodeRunnerKel11.h"
 
-#include "Header/ANDI_181511007.h"
-#include "Header/HANA_181511045.h"
-#include "Header/KRESNA_181511051.h"
-#include "Header/REZKY_181511052.h"
-#include "Header/SOFIHIN_181511056.h"
-#include "Header/RIZQA_181511065.h"
-
-#define awal 20
-
-int main()
+void Create_Node (address *p)
+//Tujuan : memesan memory dengan alokasi dinamis
+//Jika berhasil mengirimkan address, dan jika gagal mengirimkan NULL
+//Parameter : P (parameter Output)
 {
-    int mat[][35] =  {
-	{0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1},
-	{0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1},
-	{0,1,4,0,0,0,0,0,0,0,0,0,0,3,3,3,3,3,0,0,0,0,0,0,2,0,0,0,3,0,0,0,0,0,1},
-	{0,1,1,1,1,2,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,2,1,1,1,0,1,1,1,0,0,1},
-	{0,1,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,1},
-	{0,1,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,2,0,0,1},
-	{0,1,0,0,0,2,1,1,1,1,1,2,1,1,1,1,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,2,1,1,1},
-	{0,1,0,0,0,2,1,0,0,0,0,2,0,0,0,0,0,0,3,3,3,3,3,3,3,0,0,0,3,3,3,2,0,0,1},
-	{0,1,0,0,0,2,1,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,2,0,2,1},
-	{0,1,0,0,0,2,1,0,0,0,0,2,0,0,0,0,0,2,3,3,0,0,0,0,0,0,0,0,0,0,0,1,1,2,1},
+    *p = (address) malloc(sizeof(dtmap));
+}
 
-	{0,1,1,1,1,1,1,0,0,0,0,1,1,1,1,1,1,2,0,0,1,1,1,1,1,0,0,0,0,0,0,0,0,2,1},
-	{0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,1,0,0,2,0,0,0,0,0,2,1},
-	{0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,1,1,1,2,3,3,3,0,0,2,1},
-	{0,1,0,0,0,2,3,3,3,3,0,0,0,0,0,0,0,2,0,0,0,0,0,0,1,0,0,2,0,0,1,2,0,2,1},
-	{0,1,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,1,0,0,2,0,0,1,2,1,1,1},
-	{0,1,0,0,0,2,0,0,0,0,1,2,0,0,2,1,1,1,1,2,0,0,0,0,1,0,0,2,0,0,1,2,0,0,1},
-	{0,1,0,0,0,2,0,0,0,0,1,2,0,0,2,1,0,0,2,2,0,0,0,0,1,0,0,2,0,0,1,2,0,0,1},
-	{0,1,1,1,1,1,1,0,0,0,1,2,0,0,2,1,0,0,2,2,0,0,0,0,1,2,0,2,0,0,1,2,0,0,1},
-	{0,1,1,0,0,0,1,0,0,0,1,2,0,0,2,1,0,0,2,1,1,1,1,1,1,2,1,1,1,1,1,2,1,1,1},
-	{0,1,1,0,0,0,1,1,1,1,1,1,1,0,2,1,0,0,2,1,1,1,1,1,1,2,1,1,1,1,1,2,1,1,1},
+void Isi_Node (address *p)
 
-	{0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1},
-	{0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1}
-
-    };
-
-    initwindow(1360, 760, "First Sample");
-    readimagefile("Background/layout-game.gif",0,0,1360,760);
-	node* kepala = membuatmatriks(mat, 22, 35);
-	node* karakterutama;
-	int baris;
-	tampilarray(kepala);
-    for(;;){
-        switch(getch()){
-            case 'w':
-                karakterutama=cekkarakterutama(kepala);
-                baris=cekbaris(karakterutama);
-                if(karakterutama->atas!=NULL && karakterutama->letak==karakterutama->atas->letak){
-                    setviewport(awal+30*karakterutama->letak,awal+30*baris,50+30*karakterutama->letak,50+30*baris,1);
-                    clearviewport();
-                    setviewport(0,0,1360,760,1);
-                    karakterutama->objek=0;
-                    karakterutama=karakterutama->atas;
-                    karakterutama->objek=4;
-                    baris=cekbaris(karakterutama);
-                    readimagefile("Sprites/llama.gif",awal+30*karakterutama->letak,awal+30*baris,50+30*karakterutama->letak,50+30*baris);
-                }
-                // Keatas.
-            break;
-            case 'd':
-                karakterutama=cekkarakterutama(kepala);
-                baris=cekbaris(karakterutama);
-                if(karakterutama->kanan!=NULL && karakterutama->letak+1==karakterutama->kanan->letak){
-                    setviewport(awal+30*karakterutama->letak,awal+30*baris,50+30*karakterutama->letak,50+30*baris,1);
-                    clearviewport();
-                    setviewport(0,0,1360,760,1);
-                    karakterutama->objek=0;
-                    karakterutama=karakterutama->kanan;
-                    karakterutama->objek=4;
-                    readimagefile("Sprites/llama.gif",awal+30*karakterutama->letak,awal+30*baris,50+30*karakterutama->letak,50+30*baris);
-                }
-                // Kekanan.
-            break;
-            case 's':
-                karakterutama=cekkarakterutama(kepala);
-                baris=cekbaris(karakterutama);
-                if(karakterutama->bawah!=NULL && karakterutama->letak==karakterutama->bawah->letak){
-                    setviewport(awal+30*karakterutama->letak,awal+30*baris,50+30*karakterutama->letak,50+30*baris,1);
-                    clearviewport();
-                    setviewport(0,0,1360,760,1);
-                    karakterutama->objek=0;
-                    karakterutama=karakterutama->bawah;
-                    karakterutama->objek=4;
-                    baris=cekbaris(karakterutama);
-                    readimagefile("Sprites/llama.gif",awal+30*karakterutama->letak,awal+30*baris,50+30*karakterutama->letak,50+30*baris);
-                }
-                // Kebawah.
-            break;
-            case 'a':
-                karakterutama=cekkarakterutama(kepala);
-                baris=cekbaris(karakterutama);
-                if(karakterutama->kiri!=NULL && karakterutama->letak-1==karakterutama->kiri->letak && karakterutama->kiri->kiri!=NULL){
-                    setviewport(awal+30*karakterutama->letak,awal+30*baris,50+30*karakterutama->letak,50+30*baris,1);
-                    clearviewport();
-                    setviewport(0,0,1360,760,1);
-                    karakterutama->objek=0;
-                    karakterutama=karakterutama->kiri;
-                    karakterutama->objek=4;
-                    readimagefile("Sprites/llama.gif",awal+30*karakterutama->letak,awal+30*baris,50+30*karakterutama->letak,50+30*baris);
-                }
-                // Kekiri.
-            break;
-            default :
-
-                // None
-            break;
-        }
+//Tujuan : Mengisi node yang sudah dipesan dengan Nilai yang dikirimkan
+//Periksa keberadaan P, Nilai diisi jika P tidak NULL
+//	*p.next diisi NULL
+// Parameter : P (parameter Input-Output); Nilai (parameter Input)
+{
+    if (p!=NULL){
+      (*p)->next=NULL;
     }
 
-	return 0;
 }
+
+void Ins_Akhir (address *p, address PNew)
+/* Tujuan : menambahkan elemen list (PNew) di akhir LinkedList */
+/* IS : p mungkin Kosong */
+/* FS : menyambungkan elemen baru (PNew) di akhir Linked List */
+{
+    dtmap * current = *p;
+
+    while (current->next != NULL){
+        current = current->next;
+    }
+    current->next=PNew;
+}
+
+void permain(int lvl,int *score, int *nyawa, game arr[BRS][KLM])
+{
+    int baris_bef, kolom_bef,atasbawah=5,kirikiri=3, kanankanan=1;// variabel lokal untuk urutan animasi
+    char gerak;                                                  //
+    int page=0;
+    bool keep;
+    keep = true;
+    int BRS_, KLM_;
+
+    clock_t tmulai,takhir;
+    clock_t tsekarang;
+
+    Queue queuelubang;
+    inisiasi_queue(&queuelubang);
+    tmulai = clock();
+
+    BGM();                                      //back ground music saat permainan berlangsung
+
+    buatpeta2(arr,&BRS_,&KLM_,lvl);             //membuat peta permainan dalam bentuk array
+    setactivepage(0);                           //page 0 di panggil untuk di isi oleh sprites
+    cleardevice();                              //menghapus seluruh sprites pada page
+    tampilall(arr);                             //menampilkan sprite sesuai array yang telah dibuat pada page 0
+    tampilscore(*score);
+    tampillvl(lvl);                        //menampilkan score di dalam permainan pada page 0
+    setactivepage(1);                           //page 1 di panggil untuk di isi oleh sprites
+    cleardevice();                              //menghapus seluruh sprites pada page
+    tampilall(arr);                             //menampilkan sprite sesuai array yang telah dibuat pada page 1
+    tampilscore(*score);
+    tampillvl(lvl);                        //menampilkan score di dalam permainan pada page 1
+
+
+    while(keep){
+        setactivepage(page);
+        setvisualpage(1-page);
+        baris_bef = BRS_;
+        kolom_bef = KLM_;
+
+
+        if(!jatuh(arr,BRS_,KLM_)){
+            gerak = toupper(getch());
+        }else{
+            gerak = 'S';
+            delay(200);
+            FallSFX();
+        }
+        movement(gerak,arr,&BRS_,&KLM_,score,&queuelubang);
+        animasi2(arr,BRS_,KLM_,&kanankanan,&kirikiri,&atasbawah);
+
+        tampilscore(*score);
+        tampillvl(lvl);
+        //pengembalian lubang yg dibom
+        if(queuelubang.Count > 0){ // apabila ada lubang di dalam map
+                tsekarang = clock();
+                isikembali(arr, &queuelubang, tsekarang);
+            }
+
+        movementpemain(gerak,arr,BRS_,KLM_,page,atasbawah,kanankanan,kirikiri);
+        tampilpintu(arr,*score);
+        if (naiklvl(arr,BRS_,KLM_,*score)==true){
+            keep = false;
+            *score=*score+1;
+
+        }
+        if (jalan(arr,BRS_,KLM_,baris_bef,kolom_bef)){
+        page = 1 - page;
+        }
+        animasi(&atasbawah,&kanankanan,&kirikiri);
+        if (*score==14){
+            keep=false;
+        }
+    }
+}
+ int main()
+ {
+     int lvl=0,maxlvl=1,score=0,nyawa=3;
+     address head,pnew,temp;
+
+     initwindow(1360,720," ",0,0,false,true);
+     setviewport(0,0,1360,720,1);
+     //inisiasi lvl
+     Create_Node(&head);
+     Isi_Node(&head);
+
+     Create_Node(&pnew);
+     Isi_Node(&pnew);
+     Ins_Akhir(&head,pnew);
+
+     temp=head;
+     menu();
+     while (temp!=NULL)
+     {
+        permain(lvl,&score,&nyawa,head->arr);
+        lvl++;
+        temp=temp->next;
+     }
+     closegraph();
+ }

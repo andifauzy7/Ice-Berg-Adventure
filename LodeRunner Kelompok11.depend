@@ -1,0 +1,148 @@
+# depslib dependency file v1.0
+1556699154 source:c:\users\kresna\downloads\resource game\versi .h\loderunner kelompok11\main.cpp
+	"LodeRunnerKel11.h"
+
+1556501559 c:\users\kresna\downloads\resource game\versi .h\loderunner kelompok11\181511065.h
+
+1555294392 c:\users\kresna\downloads\resource game\versi .h\loderunner kelompok11\181511056.h
+
+1556074709 c:\users\kresna\downloads\resource game\versi .h\loderunner kelompok11\181511052.h
+	"181511045.h"
+
+1556699569 c:\users\kresna\downloads\resource game\versi .h\loderunner kelompok11\181511045.h
+	"181511007.h"
+
+1554307898 c:\users\kresna\downloads\resource game\versi .h\loderunner kelompok11\parameter.h
+
+1555295029 c:\users\kresna\downloads\resource game\versi .h\loderunner kelompok11\181511007.h
+
+1556699617 c:\users\kresna\downloads\resource game\versi .h\loderunner kelompok11\181511051.h
+
+1556699145 c:\users\kresna\downloads\resource game\versi .h\loderunner kelompok11\loderunnerkel11.h
+	<graphics.h>
+	<stdio.h>
+	<windows.h>
+	<conio.h>
+	<stdbool.h>
+	<Mmsystem.h>
+	<time.h>
+	"181511056.h"
+	"181511052.h"
+	"181511045.h"
+	"181511065.h"
+	"181511007.h"
+	"181511051.h"
+
+1556702951 source:d:\kuliah\proyek 2\loderunner kelompok11(1)\loderunner kelompok11\main.cpp
+	"LodeRunnerKel11.h"
+
+1556699145 d:\kuliah\proyek 2\loderunner kelompok11(1)\loderunner kelompok11\loderunnerkel11.h
+	<graphics.h>
+	<stdio.h>
+	<windows.h>
+	<conio.h>
+	<stdbool.h>
+	<Mmsystem.h>
+	<time.h>
+	"181511056.h"
+	"181511052.h"
+	"181511045.h"
+	"181511065.h"
+	"181511007.h"
+	"181511051.h"
+
+1555294392 d:\kuliah\proyek 2\loderunner kelompok11(1)\loderunner kelompok11\181511056.h
+
+1556756217 d:\kuliah\proyek 2\loderunner kelompok11(1)\loderunner kelompok11\181511052.h
+	"181511045.h"
+
+1556700219 d:\kuliah\proyek 2\loderunner kelompok11(1)\loderunner kelompok11\181511045.h
+	"181511007.h"
+
+1555295029 d:\kuliah\proyek 2\loderunner kelompok11(1)\loderunner kelompok11\181511007.h
+
+1556501559 d:\kuliah\proyek 2\loderunner kelompok11(1)\loderunner kelompok11\181511065.h
+
+1556699617 d:\kuliah\proyek 2\loderunner kelompok11(1)\loderunner kelompok11\181511051.h
+
+1556763283 source:c:\users\kresna\downloads\resource game\versi .h\rev 3.2\loderunner kelompok11\main.cpp
+	"LodeRunnerKel11.h"
+
+1556759438 c:\users\kresna\downloads\resource game\versi .h\rev 3.2\loderunner kelompok11\loderunnerkel11.h
+	<graphics.h>
+	<stdio.h>
+	<windows.h>
+	<conio.h>
+	<stdbool.h>
+	<Mmsystem.h>
+	<time.h>
+	"sofihin56.h"
+	"rezky52.h"
+	"hana45.h"
+	"rizqa65.h"
+	"andi07.h"
+	"kresna51.h"
+
+1555294392 c:\users\kresna\downloads\resource game\versi .h\rev 3.2\loderunner kelompok11\sofihin56.h
+
+1556760335 c:\users\kresna\downloads\resource game\versi .h\rev 3.2\loderunner kelompok11\rezky52.h
+	"hana45.h"
+	"rizqa65.h"
+
+1556760078 c:\users\kresna\downloads\resource game\versi .h\rev 3.2\loderunner kelompok11\hana45.h
+	"andi07.h"
+
+1556760272 c:\users\kresna\downloads\resource game\versi .h\rev 3.2\loderunner kelompok11\rizqa65.h
+
+1555295029 c:\users\kresna\downloads\resource game\versi .h\rev 3.2\loderunner kelompok11\andi07.h
+
+1556762852 c:\users\kresna\downloads\resource game\versi .h\rev 3.2\loderunner kelompok11\kresna51.h
+
+1557381468 source:d:\new kel 11\main.cpp
+	"Header/LodeRunnerKel11.h"
+
+1557381898 d:\new kel 11\header\loderunnerkel11.h
+	<graphics.h>
+	<stdio.h>
+	<windows.h>
+	<conio.h>
+	<stdbool.h>
+	<Mmsystem.h>
+	<time.h>
+	"SOFIHIN_181511056.h"
+	"REZKY_181511052.h"
+	"HANA_181511045.h"
+	"RIZQA_181511065.h"
+	"ANDI_181511007.h"
+	"KRESNA_181511051.h"
+
+1555294392 d:\new kel 11\header\sofihin56.h
+
+1556760335 d:\new kel 11\header\rezky52.h
+	"hana45.h"
+	"rizqa65.h"
+
+1556760078 d:\new kel 11\header\hana45.h
+	"andi07.h"
+
+1555295029 d:\new kel 11\header\andi07.h
+
+1556760272 d:\new kel 11\header\rizqa65.h
+
+1556762852 d:\new kel 11\header\kresna51.h
+
+1555295029 d:\new kel 11\header\andi_181511007.h
+
+1557381587 d:\new kel 11\header\hana_181511045.h
+	"ANDI_181511007.h"
+
+1556762852 d:\new kel 11\header\kresna_181511051.h
+
+1557381990 d:\new kel 11\header\rezky_181511052.h
+	"HANA_181511045.h"
+	"RIZQA_181511065.h"
+
+1556760272 d:\new kel 11\header\rizqa_181511065.h
+
+1555294392 d:\new kel 11\header\sofihin_181511056.h
+
