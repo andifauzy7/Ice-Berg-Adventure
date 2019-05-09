@@ -43,7 +43,7 @@ int main()
     };
 
     initwindow(1360, 760, "First Sample");
-    readimagefile("Background/sketsa.gif",0,0,1360,760);
+    readimagefile("Background/layout-game.gif",0,0,1360,760);
 	node* kepala = membuatmatriks(mat, 22, 35);
 	node* karakterutama;
 	int baris;
