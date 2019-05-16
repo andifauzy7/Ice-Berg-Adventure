@@ -1,39 +1,5 @@
 #include "Header/LodeRunnerKel11.h"
 
-void Create_Node (address *p)
-//Tujuan : memesan memory dengan alokasi dinamis
-//Jika berhasil mengirimkan address, dan jika gagal mengirimkan NULL
-//Parameter : P (parameter Output)
-{
-    *p = (address) malloc(sizeof(dtmap));
-}
-
-void Isi_Node (address *p)
-
-//Tujuan : Mengisi node yang sudah dipesan dengan Nilai yang dikirimkan
-//Periksa keberadaan P, Nilai diisi jika P tidak NULL
-//	*p.next diisi NULL
-// Parameter : P (parameter Input-Output); Nilai (parameter Input)
-{
-    if (p!=NULL){
-      (*p)->next=NULL;
-    }
-
-}
-
-void Ins_Akhir (address *p, address PNew)
-/* Tujuan : menambahkan elemen list (PNew) di akhir LinkedList */
-/* IS : p mungkin Kosong */
-/* FS : menyambungkan elemen baru (PNew) di akhir Linked List */
-{
-    dtmap * current = *p;
-
-    while (current->next != NULL){
-        current = current->next;
-    }
-    current->next=PNew;
-}
-
 void permain(int lvl,int *score, int *nyawa, game arr[BRS][KLM])
 {
     int baris_bef, kolom_bef,atasbawah=5,kirikiri=3, kanankanan=1;// variabel lokal untuk urutan animasi
