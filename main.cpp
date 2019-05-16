@@ -17,22 +17,23 @@ void permain(int lvl,int *score, int *nyawa, game arr[BRS][KLM],int BRS_,int KLM
 
     BGM();                                      //back ground music saat permainan berlangsung
 
-                 //membuat peta permainan dalam bentuk array
     setactivepage(0);                           //page 0 di panggil untuk di isi oleh sprites
     cleardevice();                              //menghapus seluruh sprites pada page
+    readimagefile("gambar/Playgame.gif",0,0,getmaxx(),getmaxy());
     tampilall(arr);                             //menampilkan sprite sesuai array yang telah dibuat pada page 0
     tampilscore(*score);
     tampillvl(lvl);                        //menampilkan score di dalam permainan pada page 0
     setactivepage(1);                           //page 1 di panggil untuk di isi oleh sprites
     cleardevice();                              //menghapus seluruh sprites pada page
+    readimagefile("gambar/Playgame.gif",0,0,getmaxx(),getmaxy());
     tampilall(arr);                             //menampilkan sprite sesuai array yang telah dibuat pada page 1
     tampilscore(*score);
     tampillvl(lvl);                        //menampilkan score di dalam permainan pada page 1
 
-
     while(keep){
         setactivepage(page);
         setvisualpage(1-page);
+        readimagefile("gambar/Playgame.gif",0,0,1360,720);
         baris_bef = BRS_;
         kolom_bef = KLM_;
 

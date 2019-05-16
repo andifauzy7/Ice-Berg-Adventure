@@ -4,17 +4,44 @@
 	<ActiveTarget name="Debug" />
 	<File name="main.cpp" open="1" top="1" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="3136" topLine="76" />
+			<Cursor1 position="1320" topLine="15" />
 		</Cursor>
+	</File>
+	<File name="Header\ANDI_181511007.h" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="11147" topLine="22" />
+		</Cursor>
+		<Folding>
+			<Collapse line="7" />
+			<Collapse line="11" />
+			<Collapse line="14" />
+			<Collapse line="27" />
+			<Collapse line="117" />
+			<Collapse line="121" />
+			<Collapse line="144" />
+			<Collapse line="168" />
+			<Collapse line="178" />
+			<Collapse line="189" />
+		</Folding>
 	</File>
 	<File name="Header\LodeRunnerKel11.h" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="236" topLine="30" />
+			<Cursor1 position="236" topLine="60" />
 		</Cursor>
 	</File>
-	<File name="Header\REZKY_181511052.h" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="Header\REZKY_181511052.h" open="1" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="1708" topLine="51" />
+			<Cursor1 position="522" topLine="18" />
+		</Cursor>
+	</File>
+	<File name="Header\RIZQA_181511065.h" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Header\SOFIHIN_181511056.h" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="137" topLine="31" />
 		</Cursor>
 	</File>
 </CodeBlocks_layout_file>
