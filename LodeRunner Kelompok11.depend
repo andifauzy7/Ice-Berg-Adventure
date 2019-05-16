@@ -179,3 +179,36 @@
 
 1556762852 c:\users\andi fauzy\documents\ice-berg-adventure\header\kresna_181511051.h
 
+1557979257 source:c:\users\hp\documents\ice-berg-adventure\main.cpp
+	"Header/LodeRunnerKel11.h"
+
+1557979256 c:\users\hp\documents\ice-berg-adventure\header\loderunnerkel11.h
+	<graphics.h>
+	<stdio.h>
+	<windows.h>
+	<conio.h>
+	<stdbool.h>
+	<Mmsystem.h>
+	<time.h>
+	"SOFIHIN_181511056.h"
+	"REZKY_181511052.h"
+	"HANA_181511045.h"
+	"RIZQA_181511065.h"
+	"ANDI_181511007.h"
+	"KRESNA_181511051.h"
+
+1557979256 c:\users\hp\documents\ice-berg-adventure\header\sofihin_181511056.h
+
+1557979256 c:\users\hp\documents\ice-berg-adventure\header\rezky_181511052.h
+	"HANA_181511045.h"
+	"RIZQA_181511065.h"
+
+1557979405 c:\users\hp\documents\ice-berg-adventure\header\hana_181511045.h
+	"181511007.h"
+
+1557979256 c:\users\hp\documents\ice-berg-adventure\header\rizqa_181511065.h
+
+1557979256 c:\users\hp\documents\ice-berg-adventure\header\andi_181511007.h
+
+1557979256 c:\users\hp\documents\ice-berg-adventure\header\kresna_181511051.h
+
