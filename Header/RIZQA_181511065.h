@@ -105,14 +105,14 @@ void kiri(game arr[BRS][KLM], int BRS_, int KLM_,int a)
 void tampilscore(int score)
 {
     char dtscore[20];
-    sprintf(dtscore,"Score : %d ", score);
-    outtextxy(0,690,dtscore);
+    sprintf(dtscore,"%d ", score);
+    outtextxy(getmaxx()-120,360,dtscore);
 }
 void tampillvl(int lvl)
 {
     char dtscore[10];
-    sprintf(dtscore,"Level : %d ", lvl+1);
-    outtextxy(300,690,dtscore);
+    sprintf(dtscore,"%d ", lvl+1);
+    outtextxy(getmaxx()-120,273,dtscore);
 }
 //kondisi penggunaan animasi
 // prosedur untuk mengatur pergerakan pemain
