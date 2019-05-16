@@ -24,6 +24,7 @@ void delbalokallpage(game arr[BRS][KLM],int baris,int kolom,int i){
             setviewport(0,0,1050,690,1);
       }
 }
+/*
 void readdesain4(game arr[BRS][KLM]) //Modul untuk desain level
 {
     // TALI
@@ -114,6 +115,7 @@ arr[1][19].peta = 1;arr[1][20].peta = 1;arr[1][21].peta = 1;arr[1][22].peta = 1;
 arr[1][25].peta = 1;arr[1][26].peta = 1;arr[1][27].peta = 1;arr[1][28].peta = 1;arr[1][29].peta = 1;arr[1][30].peta = 1;
 arr[1][31].peta = 1;arr[1][32].peta = 1;arr[1][33].peta = 1;arr[1][34].peta = 1;
 }
+*/
 void inspemain(game arr[BRS][KLM],int baris,int kolom)
 {
     arr[baris][kolom].pemain=1;

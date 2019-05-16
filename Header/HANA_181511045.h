@@ -5,7 +5,7 @@
 
 #ifndef Hana181511045_H
 #define Hana181511045_H
-#include "181511007.h"
+#include "ANDI_181511007.h"
 
 
 void readdesain1(game arr[BRS][KLM]) //Modul untuk desain level
@@ -153,29 +153,28 @@ arr[18][33].peta=1; arr[19][21].peta=1; arr[19][22].peta=1; arr[19][23].peta=1; 
 arr[20][22].peta=1; arr[20][23].peta=1;
 
 // tangga
-arr[2][12].objek=1; arr[3][12].objek=1; arr[4][12].objek=1; arr[2][26].objek=1; arr[3][26].objek=1;
-arr[4][26].objek=1; arr[3][7].objek=1; arr[4][7].objek=1; arr[5][7].objek=1; arr[6][7].objek=1;
-arr[7][6].objek=1; arr[8][6].objek=1; arr[9][6].objek=1; arr[10][6].objek=1; arr[11][6].objek=1;
-arr[12][6].objek=1; arr[13][6].objek=1; arr[14][6].objek=1; arr[5][17].objek=1; arr[6][17].objek=1;
-arr[6][17].objek=1; arr[6][17].objek=1; arr[5][24].objek=1; arr[6][24].objek=1; arr[6][24].objek=1;
-arr[6][24].objek=1; arr[9][14].objek=1; arr[10][14].objek=1; arr[11][14].objek=1; arr[12][14].objek=1;
-arr[9][22].objek=1; arr[10][22].objek=1; arr[11][22].objek=1; arr[12][17].objek=1; arr[13][17].objek=1;
-arr[14][17].objek=1; arr[12][27].objek=1; arr[13][27].objek=1; arr[14][27].objek=1; arr[15][5].objek=1;
-arr[16][5].objek=1; arr[17][5].objek=1; arr[18][5].objek=1; arr[19][5].objek=1; arr[20][5].objek=1;
-arr[21][5].objek=1; arr[15][31].objek=1; arr[16][31].objek=1; arr[17][31].objek=1; arr[18][31].objek=1;
-arr[19][31].objek=1; arr[20][31].objek=1; arr[18][20].objek=1; arr[19][20].objek=1; arr[20][20].objek=1;
-arr[21][20].objek=1; arr[18][24].objek=1; arr[19][24].objek=1; arr[20][24].objek=1; arr[21][24].objek=1;
+arr[2][12].tangga=1; arr[3][12].tangga=1; arr[4][12].tangga=1; arr[2][26].tangga=1; arr[3][26].tangga=1;
+arr[4][26].tangga=1; arr[3][7].tangga=1; arr[4][7].tangga=1; arr[5][7].tangga=1; arr[6][7].tangga=1;
+arr[7][6].tangga=1; arr[8][6].tangga=1; arr[9][6].tangga=1; arr[10][6].tangga=1; arr[11][6].tangga=1;
+arr[12][6].tangga=1; arr[13][6].tangga=1; arr[14][6].tangga=1; arr[5][17].tangga=1; arr[6][17].tangga=1;
+arr[6][17].tangga=1; arr[6][17].tangga=1; arr[5][24].tangga=1; arr[6][24].tangga=1; arr[6][24].tangga=1;
+arr[6][24].tangga=1; arr[9][14].tangga=1; arr[10][14].tangga=1; arr[11][14].tangga=1; arr[12][14].tangga=1;
+arr[9][22].tangga=1; arr[10][22].tangga=1; arr[11][22].tangga=1; arr[12][17].tangga=1; arr[13][17].tangga=1;
+arr[14][17].tangga=1; arr[12][27].tangga=1; arr[13][27].tangga=1; arr[14][27].tangga=1; arr[15][5].tangga=1;
+arr[16][5].tangga=1; arr[17][5].tangga=1; arr[18][5].tangga=1; arr[19][5].tangga=1; arr[20][5].tangga=1;
+arr[21][5].tangga=1; arr[15][31].tangga=1; arr[16][31].tangga=1; arr[17][31].tangga=1; arr[18][31].tangga=1;
+arr[19][31].tangga=1; arr[20][31].tangga=1; arr[18][20].tangga=1; arr[19][20].tangga=1; arr[20][20].tangga=1;
+arr[21][20].tangga=1; arr[18][24].tangga=1; arr[19][24].tangga=1; arr[20][24].tangga=1; arr[21][24].tangga=1;
 
 // tali
-arr[6][27].objek=2; arr[6][28].objek=2; arr[7][29].objek=2; arr[7][30].objek=2; arr[11][7].objek=2;
-arr[11][8].objek=2; arr[11][9].objek=2; arr[11][10].objek=2; arr[11][11].objek=2; arr[11][12].objek=2;
-arr[11][12].objek=2;
+arr[6][27].tangga=2; arr[6][28].tangga=2; arr[7][29].tangga=2; arr[7][30].tangga=2; arr[11][7].tangga=2;
+arr[11][8].tangga=2; arr[11][9].tangga=2; arr[11][10].tangga=2; arr[11][11].tangga=2; arr[11][12].tangga=2;
+arr[11][12].tangga=2;
 
 // ruby
-arr[1][18].objek=3; arr[1][20].objek=3; arr[2][3].objek=3; arr[4][21].objek=3; arr[6][4].objek=3;
-arr[9][31].objek=3; arr[14][12].objek=3; arr[21][2].objek=3; arr[21][28].objek=3;
+arr[1][18].tangga=3; arr[1][20].tangga=3; arr[2][3].tangga=3; arr[4][21].tangga=3; arr[6][4].tangga=3;
+arr[9][31].tangga=3; arr[14][12].tangga=3; arr[21][2].tangga=3; arr[21][28].tangga=3;
 }
-
 
 void readdesain5 (game arr[BRS][KLM])
 {
@@ -218,29 +217,29 @@ arr[21][24].peta=1; arr[21][25].peta=1; arr[21][26].peta=1; arr[21][27].peta=1; 
 arr[21][29].peta=1; arr[21][30].peta=1; arr[21][31].peta=1; arr[21][32].peta=1; arr[21][33].peta=1;
 
 //tangga
-arr[3][1].objek=1; arr[4][1].objek=1; arr[3][21].objek=1; arr[4][21].objek=1; arr[5][14].objek=1;
-arr[6][14].objek=1; arr[6][13].objek=1; arr[7][13].objek=1; arr[7][12].objek=1; arr[8][12].objek=1;
-arr[8][11].objek=1; arr[9][11].objek=1;  arr[9][10].objek=1; arr[10][10].objek=1; arr[10][9].objek=1;
-arr[11][9].objek=1; arr[12][9].objek=1; arr[13][9].objek=1; arr[14][9].objek=1; arr[7][20].objek=1;
-arr[8][20].objek=1; arr[9][20].objek=1; arr[14][1].objek=1; arr[15][1].objek=1; arr[16][1].objek=1;
-arr[17][1].objek=1; arr[18][1].objek=1; arr[19][1].objek=1; arr[20][1].objek=1; arr[10][16].objek=1;
-arr[11][16].objek=1; arr[12][16].objek=1; arr[13][16].objek=1; arr[14][16].objek=1; arr[15][16].objek=1;
-arr[16][16].objek=1; arr[17][16].objek=1; arr[18][16].objek=1; arr[19][16].objek=1; arr[20][16].objek=1;
-arr[2][29].objek=1; arr[3][29].objek=1; arr[4][29].objek=1; arr[5][29].objek=1; arr[6][29].objek=1;
-arr[7][29].objek=1; arr[8][29].objek=1; arr[9][29].objek=1; arr[10][29].objek=1; arr[11][29].objek=1;
-arr[12][29].objek=1; arr[13][29].objek=1; arr[14][29].objek=1; arr[15][29].objek=1; arr[16][29].objek=1;
-arr[17][29].objek=1; arr[18][29].objek=1; arr[19][29].objek=1; arr[20][29].objek=1;
+arr[3][1].tangga=1; arr[4][1].tangga=1; arr[3][21].tangga=1; arr[4][21].tangga=1; arr[5][14].tangga=1;
+arr[6][14].tangga=1; arr[6][13].tangga=1; arr[7][13].tangga=1; arr[7][12].tangga=1; arr[8][12].tangga=1;
+arr[8][11].tangga=1; arr[9][11].tangga=1;  arr[9][10].tangga=1; arr[10][10].tangga=1; arr[10][9].tangga=1;
+arr[11][9].tangga=1; arr[12][9].tangga=1; arr[13][9].tangga=1; arr[14][9].tangga=1; arr[7][20].tangga=1;
+arr[8][20].tangga=1; arr[9][20].tangga=1; arr[14][1].tangga=1; arr[15][1].tangga=1; arr[16][1].tangga=1;
+arr[17][1].tangga=1; arr[18][1].tangga=1; arr[19][1].tangga=1; arr[20][1].tangga=1; arr[10][16].tangga=1;
+arr[11][16].tangga=1; arr[12][16].tangga=1; arr[13][16].tangga=1; arr[14][16].tangga=1; arr[15][16].tangga=1;
+arr[16][16].tangga=1; arr[17][16].tangga=1; arr[18][16].tangga=1; arr[19][16].tangga=1; arr[20][16].tangga=1;
+arr[2][29].tangga=1; arr[3][29].tangga=1; arr[4][29].tangga=1; arr[5][29].tangga=1; arr[6][29].tangga=1;
+arr[7][29].tangga=1; arr[8][29].tangga=1; arr[9][29].tangga=1; arr[10][29].tangga=1; arr[11][29].tangga=1;
+arr[12][29].tangga=1; arr[13][29].tangga=1; arr[14][29].tangga=1; arr[15][29].tangga=1; arr[16][29].tangga=1;
+arr[17][29].tangga=1; arr[18][29].tangga=1; arr[19][29].tangga=1; arr[20][29].tangga=1;
 
 //tali
-arr[4][22].objek=2; arr[4][23].objek=2; arr[4][24].objek=2; arr[4][25].objek=2; arr[4][26].objek=2;
-arr[4][27].objek=2; arr[4][28].objek=2; arr[7][14].objek=2; arr[7][15].objek=2; arr[7][16].objek=2;
-arr[7][17].objek=2; arr[7][18].objek=2; arr[7][19].objek=2; arr[14][17].objek=2; arr[14][18].objek=2;
-arr[14][19].objek=2; arr[14][20].objek=2; arr[14][21].objek=2; arr[14][22].objek=2; arr[14][23].objek=2;
-arr[14][24].objek=2; arr[14][25].objek=2; arr[14][26].objek=2; arr[14][27].objek=2; arr[14][28].objek=2;
+arr[4][22].tangga=2; arr[4][23].tangga=2; arr[4][24].tangga=2; arr[4][25].tangga=2; arr[4][26].tangga=2;
+arr[4][27].tangga=2; arr[4][28].tangga=2; arr[7][14].tangga=2; arr[7][15].tangga=2; arr[7][16].tangga=2;
+arr[7][17].tangga=2; arr[7][18].tangga=2; arr[7][19].tangga=2; arr[14][17].tangga=2; arr[14][18].tangga=2;
+arr[14][19].tangga=2; arr[14][20].tangga=2; arr[14][21].tangga=2; arr[14][22].tangga=2; arr[14][23].tangga=2;
+arr[14][24].tangga=2; arr[14][25].tangga=2; arr[14][26].tangga=2; arr[14][27].tangga=2; arr[14][28].tangga=2;
 
 //ruby
-arr[2][8].objek=3; arr[2][16].objek=3; arr[4][32].objek=3; arr[9][3].objek=3; arr[9][6].objek=3;
-arr[9][24].objek=3; arr[9][32].objek=3; arr[14][12].objek=3; arr[16][19].objek=3; arr[16][26].objek=3;
+arr[2][8].tangga=3; arr[2][16].tangga=3; arr[4][32].tangga=3; arr[9][3].tangga=3; arr[9][6].tangga=3;
+arr[9][24].tangga=3; arr[9][32].tangga=3; arr[14][12].tangga=3; arr[16][19].tangga=3; arr[16][26].tangga=3;
 }
 
 
