@@ -1,6 +1,6 @@
 #include "Header/LodeRunnerKel11.h"
 
-void permain(int lvl,int *score, int *nyawa, game arr[BRS][KLM])
+void permain(int lvl,int *score, int *nyawa, game arr[BRS][KLM],int BRS_,KLM_)
 {
     int baris_bef, kolom_bef,atasbawah=5,kirikiri=3, kanankanan=1;// variabel lokal untuk urutan animasi
     char gerak;                                                  //
@@ -18,7 +18,7 @@ void permain(int lvl,int *score, int *nyawa, game arr[BRS][KLM])
 
     BGM();                                      //back ground music saat permainan berlangsung
 
-    buatpeta2(arr,&BRS_,&KLM_,lvl);             //membuat peta permainan dalam bentuk array
+                 //membuat peta permainan dalam bentuk array
     setactivepage(0);                           //page 0 di panggil untuk di isi oleh sprites
     cleardevice();                              //menghapus seluruh sprites pada page
     tampilall(arr);                             //menampilkan sprite sesuai array yang telah dibuat pada page 0
@@ -71,28 +71,37 @@ void permain(int lvl,int *score, int *nyawa, game arr[BRS][KLM])
         }
     }
 }
- int main()
- {
-     int lvl=0,maxlvl=1,score=0,nyawa=3;
-     address head,pnew,temp;
+int main()
+{
+    int lvl=0,maxlvl=2,score=0,nyawa=3;
+    int BRS_, KLM_;
+    address head=NULL,pnew,temp;
+    initwindow(1360,720," ",0,0,false,true);
+    setviewport(0,0,1360,720,1);
+    //inisiasi lvl
+    while(lvl<maxlvl){
+       if (head==NULL){
+           Create_Node(&head);
+           Isi_Node(&head);
+           temp=head;
+       }else{
+           Create_Node(&pnew);
+           Isi_Node(&pnew);
+           Ins_Akhir(&head,pnew);
+           temp=temp->next;
+       }
+       buatpeta2(temp->arr,&BRS_,&KLM_,lvl);
+       lvl++;
 
-     initwindow(1360,720," ",0,0,false,true);
-     setviewport(0,0,1360,720,1);
-     //inisiasi lvl
-     Create_Node(&head);
-     Isi_Node(&head);
-
-     Create_Node(&pnew);
-     Isi_Node(&pnew);
-     Ins_Akhir(&head,pnew);
-
-     temp=head;
-     menu();
-     while (temp!=NULL)
-     {
-        permain(lvl,&score,&nyawa,head->arr);
-        lvl++;
-        temp=temp->next;
-     }
-     closegraph();
- }
+    }
+    lvl=0;
+    temp=head;
+    menu();
+    while (temp!=NULL)
+    {
+       permain(lvl,&score,&nyawa,temp->arr,BRS_,KLM_);
+       lvl++;
+       temp=temp->next;
+    }
+    closegraph();
+}
