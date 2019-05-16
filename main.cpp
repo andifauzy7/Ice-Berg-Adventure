@@ -1,13 +1,12 @@
 #include "Header/LodeRunnerKel11.h"
 
-void permain(int lvl,int *score, int *nyawa, game arr[BRS][KLM],int BRS_,KLM_)
+void permain(int lvl,int *score, int *nyawa, game arr[BRS][KLM],int BRS_,int KLM_)
 {
     int baris_bef, kolom_bef,atasbawah=5,kirikiri=3, kanankanan=1;// variabel lokal untuk urutan animasi
     char gerak;                                                  //
     int page=0;
     bool keep;
     keep = true;
-    int BRS_, KLM_;
 
     clock_t tmulai,takhir;
     clock_t tsekarang;
