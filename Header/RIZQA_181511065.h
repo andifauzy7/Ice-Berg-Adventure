@@ -105,6 +105,9 @@ void kiri(game arr[BRS][KLM], int BRS_, int KLM_,int a)
 void tampilscore(int score)
 {
     char dtscore[20];
+    setviewport(getmaxx()-130,353,getmaxx()-70,400,1);
+    clearviewport(); 
+    setviewport(0,0,1360,720,1);
     sprintf(dtscore,"%d ", score);
     outtextxy(getmaxx()-120,360,dtscore);
 }
