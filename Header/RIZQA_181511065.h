@@ -106,16 +106,19 @@ void tampilscore(int score)
 {
     char dtscore[20];
     setviewport(getmaxx()-130,353,getmaxx()-70,400,1);
-    clearviewport(); 
+    clearviewport();
     setviewport(0,0,1360,720,1);
     sprintf(dtscore,"%d ", score);
-    outtextxy(getmaxx()-120,360,dtscore);
+    outtextxy(getmaxx()-135,360,dtscore);
 }
 void tampillvl(int lvl)
 {
     char dtscore[10];
+    setviewport(getmaxx()-130,273,getmaxx()-70,310,1);
+    clearviewport();
+    setviewport(0,0,1360,720,1);
     sprintf(dtscore,"%d ", lvl+1);
-    outtextxy(getmaxx()-120,273,dtscore);
+    outtextxy(getmaxx()-135,273,dtscore);
 }
 //kondisi penggunaan animasi
 // prosedur untuk mengatur pergerakan pemain
