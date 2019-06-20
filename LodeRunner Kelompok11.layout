@@ -2,53 +2,61 @@
 <CodeBlocks_layout_file>
 	<FileVersion major="1" minor="0" />
 	<ActiveTarget name="Debug" />
-	<File name="Header\SOFIHIN_181511056.h" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="Header\RIZQA_181511065.h" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="137" topLine="29" />
+			<Cursor1 position="0" topLine="39" />
 		</Cursor>
+	</File>
+	<File name="Header\HANA_181511045.h" open="1" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="22586" topLine="228" />
+		</Cursor>
+		<Folding>
+			<Collapse line="11" />
+		</Folding>
 	</File>
 	<File name="Header\REZKY_181511052.h" open="1" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="3352" topLine="91" />
+			<Cursor1 position="480" topLine="16" />
 		</Cursor>
 	</File>
-	<File name="Header\RIZQA_181511065.h" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="main.cpp" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="0" topLine="0" />
+			<Cursor1 position="1333" topLine="29" />
 		</Cursor>
+	</File>
+	<File name="Header\SOFIHIN_181511056.h" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="91" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Header\KRESNA_181511051.h" open="1" top="0" tabpos="11" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="6930" topLine="209" />
+		</Cursor>
+	</File>
+	<File name="Header\LodeRunnerKel11.h" open="1" top="1" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="809" topLine="132" />
+		</Cursor>
+		<Folding>
+			<Collapse line="15" />
+			<Collapse line="21" />
+			<Collapse line="26" />
+			<Collapse line="31" />
+			<Collapse line="41" />
+			<Collapse line="46" />
+		</Folding>
 	</File>
 	<File name="Header\ANDI_181511007.h" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="11147" topLine="22" />
+			<Cursor1 position="11629" topLine="76" />
 		</Cursor>
 		<Folding>
 			<Collapse line="7" />
 			<Collapse line="11" />
 			<Collapse line="14" />
+			<Collapse line="26" />
 		</Folding>
-	</File>
-	<File name="Header\HANA_181511045.h" open="1" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="16217" topLine="12" />
-		</Cursor>
-		<Folding>
-			<Collapse line="11" />
-			<Collapse line="61" />
-			<Collapse line="113" />
-			<Collapse line="179" />
-			<Collapse line="246" />
-			<Collapse line="276" />
-			<Collapse line="304" />
-		</Folding>
-	</File>
-	<File name="main.cpp" open="1" top="1" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="2812" topLine="69" />
-		</Cursor>
-	</File>
-	<File name="Header\LodeRunnerKel11.h" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="1895" topLine="111" />
-		</Cursor>
 	</File>
 </CodeBlocks_layout_file>

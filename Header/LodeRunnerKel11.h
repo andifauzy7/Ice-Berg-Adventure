@@ -38,6 +38,7 @@ typedef struct{
 }Queue;
 
 typedef struct tdtmap *address;
+
 typedef struct tdtmap {
     game arr[BRS][KLM];
     address next;

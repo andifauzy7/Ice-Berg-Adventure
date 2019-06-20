@@ -116,6 +116,7 @@ arr[1][25].peta = 1;arr[1][26].peta = 1;arr[1][27].peta = 1;arr[1][28].peta = 1;
 arr[1][31].peta = 1;arr[1][32].peta = 1;arr[1][33].peta = 1;arr[1][34].peta = 1;
 }
 */
+
 void inspemain(game arr[BRS][KLM],int baris,int kolom)
 {
     arr[baris][kolom].pemain=1;
@@ -197,4 +198,5 @@ void Ins_Akhir (address *p, address PNew)
     }
     current->next=PNew;
 }
+
 #endif // 181511007_H
