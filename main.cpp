@@ -1,4 +1,8 @@
 #include "Header/LodeRunnerKel11.h"
+void convert_matriks(game matriks[BRS][KLM]);
+bool above_blocks(game matriks[BRS][KLM], int i, int j);
+bool object_use(game matriks[BRS][KLM], int i, int j);
+bool above_rope(game matriks[BRS][KLM], int i, int j);
 
 void permain(int lvl,int *score, int *nyawa, game arr[BRS][KLM],int BRS_,int KLM_)
 {
@@ -79,6 +83,7 @@ int main()
     initwindow(1360,720," ",0,0,false,true);
     setviewport(0,0,1360,720,1);
     //inisiasi lvl
+
     while(lvl<maxlvl){
        if (head==NULL){
            Create_Node(&head);
@@ -92,11 +97,12 @@ int main()
        }
        buatpeta2(temp->arr,&BRS_,&KLM_,lvl);
        lvl++;
-
     }
+
     lvl=0;
     temp=head;
     menu();
+    convert_matriks(temp->arr);
     while (temp!=NULL)
     {
        permain(lvl,&score,&nyawa,temp->arr,BRS_,KLM_);
@@ -104,4 +110,56 @@ int main()
        temp=temp->next;
     }
     closegraph();
+}
+
+void convert_matriks(game matriks[BRS][KLM]){
+    int i=0;
+        while(i<BRS){
+            int j=0;
+            while(j<KLM){
+                // PETA ADALAH JALUR KOSONG YG BISA DILEWATI.
+                // PEMAIN ADALAH LETAK KARAKTER UTAMA.
+                // TANGGA ADALAH OBJEK LAIN SPT TANGGA 1, TALI 2, RUBY 3.
+                if( above_blocks(matriks, i, j) || object_use(matriks, i, j) || above_rope(matriks,i,j)){
+                    printf("2");
+                } else {
+                    printf("%d",matriks[i][j].peta);
+                }
+                j++;
+            }
+            printf("\n");
+            i++;
+        }
+}
+
+bool above_blocks(game matriks[BRS][KLM], int i, int j){
+    // Jika Dibawahnya bisa dipijak (Ex Block atau tangga) & Harus Jalur yang tersedia
+    if(( matriks[i+1][j].peta == 1 || matriks[i+1][j].tangga == 1) && matriks[i][j].peta == 0){
+        return true;
+    } else {
+        return false;
+    }
+}
+
+bool object_use(game matriks[BRS][KLM], int i, int j){
+    // Jika Object adalah Tangga atau TALI.
+    if( (matriks[i][j].tangga == 2 || matriks[i][j].tangga == 1 ||
+         matriks[i][j+1].tangga == 1 || matriks[i][j+1].tangga == 2 ||
+         matriks[i][j-1].tangga == 1 || matriks[i][j-1].tangga == 2
+         ) && matriks[i][j].peta == 0){
+        return true;
+    } else {
+        return false;
+    }
+}
+
+bool above_rope(game matriks[BRS][KLM], int i, int j){
+    if(matriks[i][j].peta != 0){
+        return false;
+    }
+    if(matriks[i][j].peta == 0 && matriks[i-1][j].tangga == 2 && i>=0){
+        return true;
+    } else {
+        above_rope(matriks, i-1, j);
+    }
 }

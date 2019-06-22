@@ -56,8 +56,8 @@ void menu(){
 
 
 void BGM(){
-    mciSendString("open \"Sound/BGM.mp3\" type mpegvideo alias bgm", NULL, 0, NULL);
-    mciSendString("play bgm", NULL, 0, NULL);
+    //mciSendString("open \"Sound/BGM.mp3\" type mpegvideo alias bgm", NULL, 0, NULL);
+    //mciSendString("play bgm", NULL, 0, NULL);
 }
 
 void FallSFX(){
