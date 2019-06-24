@@ -65,10 +65,10 @@
 
 1556699617 d:\kuliah\proyek 2\loderunner kelompok11(1)\loderunner kelompok11\181511051.h
 
-1556763283 source:c:\users\kresna\downloads\resource game\versi .h\rev 3.2\loderunner kelompok11\main.cpp
+1557969187 source:c:\users\kresna\downloads\resource game\versi .h\rev 3.2\loderunner kelompok11\main.cpp
 	"LodeRunnerKel11.h"
 
-1556759438 c:\users\kresna\downloads\resource game\versi .h\rev 3.2\loderunner kelompok11\loderunnerkel11.h
+1557374739 c:\users\kresna\downloads\resource game\versi .h\rev 3.2\loderunner kelompok11\loderunnerkel11.h
 	<graphics.h>
 	<stdio.h>
 	<windows.h>
@@ -85,7 +85,7 @@
 
 1555294392 c:\users\kresna\downloads\resource game\versi .h\rev 3.2\loderunner kelompok11\sofihin56.h
 
-1556760335 c:\users\kresna\downloads\resource game\versi .h\rev 3.2\loderunner kelompok11\rezky52.h
+1557968453 c:\users\kresna\downloads\resource game\versi .h\rev 3.2\loderunner kelompok11\rezky52.h
 	"hana45.h"
 	"rizqa65.h"
 
@@ -98,10 +98,10 @@
 
 1556762852 c:\users\kresna\downloads\resource game\versi .h\rev 3.2\loderunner kelompok11\kresna51.h
 
-1557381468 source:d:\new kel 11\main.cpp
-	"Header/LodeRunnerKel11.h"
+1560931070 source:c:\users\kresna\downloads\sm2\resource game\versi .h\rev 3.2\loderunner kelompok11\main.cpp
+	"LodeRunnerKel11.h"
 
-1557381898 d:\new kel 11\header\loderunnerkel11.h
+1560914246 c:\users\kresna\downloads\sm2\resource game\versi .h\rev 3.2\loderunner kelompok11\loderunnerkel11.h
 	<graphics.h>
 	<stdio.h>
 	<windows.h>
@@ -109,47 +109,33 @@
 	<stdbool.h>
 	<Mmsystem.h>
 	<time.h>
-	"SOFIHIN_181511056.h"
-	"REZKY_181511052.h"
-	"HANA_181511045.h"
-	"RIZQA_181511065.h"
-	"ANDI_181511007.h"
-	"KRESNA_181511051.h"
+	"sofihin56.h"
+	"rezky52.h"
+	"hana45.h"
+	"rizqa65.h"
+	"andi07.h"
+	"kresna51.h"
 
-1555294392 d:\new kel 11\header\sofihin56.h
+1560931256 c:\users\kresna\downloads\sm2\resource game\versi .h\rev 3.2\loderunner kelompok11\sofihin56.h
 
-1556760335 d:\new kel 11\header\rezky52.h
+1560916000 c:\users\kresna\downloads\sm2\resource game\versi .h\rev 3.2\loderunner kelompok11\rezky52.h
 	"hana45.h"
 	"rizqa65.h"
 
-1556760078 d:\new kel 11\header\hana45.h
+1560931070 c:\users\kresna\downloads\sm2\resource game\versi .h\rev 3.2\loderunner kelompok11\hana45.h
 	"andi07.h"
+	"rizqa65.h"
 
-1555295029 d:\new kel 11\header\andi07.h
+1560914453 c:\users\kresna\downloads\sm2\resource game\versi .h\rev 3.2\loderunner kelompok11\andi07.h
 
-1556760272 d:\new kel 11\header\rizqa65.h
+1560914453 c:\users\kresna\downloads\sm2\resource game\versi .h\rev 3.2\loderunner kelompok11\rizqa65.h
 
-1556762852 d:\new kel 11\header\kresna51.h
+1560916053 c:\users\kresna\downloads\sm2\resource game\versi .h\rev 3.2\loderunner kelompok11\kresna51.h
 
-1555295029 d:\new kel 11\header\andi_181511007.h
+1561389716 source:c:\users\kresna\downloads\sm2\resource game\versi .h\rev 3.7\loderunner kelompok11\main.cpp
+	"LodeRunnerKel11.h"
 
-1557381587 d:\new kel 11\header\hana_181511045.h
-	"ANDI_181511007.h"
-
-1556762852 d:\new kel 11\header\kresna_181511051.h
-
-1557381990 d:\new kel 11\header\rezky_181511052.h
-	"HANA_181511045.h"
-	"RIZQA_181511065.h"
-
-1556760272 d:\new kel 11\header\rizqa_181511065.h
-
-1555294392 d:\new kel 11\header\sofihin_181511056.h
-
-1560959301 source:c:\users\andi fauzy\documents\ice-berg-adventure\main.cpp
-	"Header/LodeRunnerKel11.h"
-
-1560992343 c:\users\andi fauzy\documents\ice-berg-adventure\header\loderunnerkel11.h
+1561190506 c:\users\kresna\downloads\sm2\resource game\versi .h\rev 3.7\loderunner kelompok11\loderunnerkel11.h
 	<graphics.h>
 	<stdio.h>
 	<windows.h>
@@ -157,58 +143,26 @@
 	<stdbool.h>
 	<Mmsystem.h>
 	<time.h>
-	"SOFIHIN_181511056.h"
-	"REZKY_181511052.h"
-	"HANA_181511045.h"
-	"RIZQA_181511065.h"
-	"ANDI_181511007.h"
-	"KRESNA_181511051.h"
+	"sofihin56.h"
+	"rezky52.h"
+	"hana45.h"
+	"rizqa65.h"
+	"andi07.h"
+	"kresna51.h"
 
-1555294392 c:\users\andi fauzy\documents\ice-berg-adventure\header\sofihin_181511056.h
+1561389856 c:\users\kresna\downloads\sm2\resource game\versi .h\rev 3.7\loderunner kelompok11\sofihin56.h
 
-1557971958 c:\users\andi fauzy\documents\ice-berg-adventure\header\rezky_181511052.h
-	"HANA_181511045.h"
-	"RIZQA_181511065.h"
+1560916000 c:\users\kresna\downloads\sm2\resource game\versi .h\rev 3.7\loderunner kelompok11\rezky52.h
+	"hana45.h"
+	"rizqa65.h"
 
-1560992024 c:\users\andi fauzy\documents\ice-berg-adventure\header\hana_181511045.h
-	"ANDI_181511007.h"
+1560931070 c:\users\kresna\downloads\sm2\resource game\versi .h\rev 3.7\loderunner kelompok11\hana45.h
+	"andi07.h"
+	"rizqa65.h"
 
-1560992343 c:\users\andi fauzy\documents\ice-berg-adventure\header\andi_181511007.h
+1560914453 c:\users\kresna\downloads\sm2\resource game\versi .h\rev 3.7\loderunner kelompok11\andi07.h
 
-1560959381 c:\users\andi fauzy\documents\ice-berg-adventure\header\rizqa_181511065.h
+1560914453 c:\users\kresna\downloads\sm2\resource game\versi .h\rev 3.7\loderunner kelompok11\rizqa65.h
 
-1556762852 c:\users\andi fauzy\documents\ice-berg-adventure\header\kresna_181511051.h
-
-1557979257 source:c:\users\hp\documents\ice-berg-adventure\main.cpp
-	"Header/LodeRunnerKel11.h"
-
-1557979256 c:\users\hp\documents\ice-berg-adventure\header\loderunnerkel11.h
-	<graphics.h>
-	<stdio.h>
-	<windows.h>
-	<conio.h>
-	<stdbool.h>
-	<Mmsystem.h>
-	<time.h>
-	"SOFIHIN_181511056.h"
-	"REZKY_181511052.h"
-	"HANA_181511045.h"
-	"RIZQA_181511065.h"
-	"ANDI_181511007.h"
-	"KRESNA_181511051.h"
-
-1557979256 c:\users\hp\documents\ice-berg-adventure\header\sofihin_181511056.h
-
-1557979256 c:\users\hp\documents\ice-berg-adventure\header\rezky_181511052.h
-	"HANA_181511045.h"
-	"RIZQA_181511065.h"
-
-1557979405 c:\users\hp\documents\ice-berg-adventure\header\hana_181511045.h
-	"181511007.h"
-
-1557979256 c:\users\hp\documents\ice-berg-adventure\header\rizqa_181511065.h
-
-1557979256 c:\users\hp\documents\ice-berg-adventure\header\andi_181511007.h
-
-1557979256 c:\users\hp\documents\ice-berg-adventure\header\kresna_181511051.h
+1561389689 c:\users\kresna\downloads\sm2\resource game\versi .h\rev 3.7\loderunner kelompok11\kresna51.h
 

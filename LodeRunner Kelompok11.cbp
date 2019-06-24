@@ -32,14 +32,14 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
-		<Unit filename="Header/ANDI_181511007.h" />
-		<Unit filename="Header/HANA_181511045.h" />
-		<Unit filename="Header/KRESNA_181511051.h" />
-		<Unit filename="Header/LodeRunnerKel11.h" />
-		<Unit filename="Header/REZKY_181511052.h" />
-		<Unit filename="Header/RIZQA_181511065.h" />
-		<Unit filename="Header/SOFIHIN_181511056.h" />
+		<Unit filename="LodeRunnerKel11.h" />
+		<Unit filename="andi07.h" />
+		<Unit filename="hana45.h" />
+		<Unit filename="kresna51.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="rezky52.h" />
+		<Unit filename="rizqa65.h" />
+		<Unit filename="sofihin56.h" />
 		<Extensions>
 			<code_completion />
 			<envvars />
